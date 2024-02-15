@@ -108,7 +108,7 @@ VALUES
     ('Nigeria','Africa'), ('Niue','Oceania'),
     ('Norfolk Island','Oceania'), ('North Korea','Asia'),
     ('North Macedonia','Europe'), ('Northern Mariana Islands','Oceania'),
-    ('Norway','Europe'), ('Oman','Asia'),
+    ('Norway','Europe'), ('Oman','Asia'), ('Palau','Oceania'),
     ('Palestine','Asia'), ('Panama','North America'),
     ('Papua New Guinea','Oceania'), ('Paraguay','South America'),
     ('Peru','South America'), ('Philippines','Asia'),
@@ -206,7 +206,9 @@ VALUES ('Cody','Rose',28,'M',true),
        ('Jasmine','Adair',30,'F',true),
        ('Ashlie','Barranco-Aragon',17,'F',true),
        ('Bran','Shehan',null,'M',true),
-       ('Ilmaris','Zayas Pagan',34,'F',true);
+       ('Ilmaris','Zayas Pagan',34,'F',true),
+       ('Linda','Coss',63,'F',true),
+       ('John','Coss',null,'M',true);
 
 COMMIT;
 
