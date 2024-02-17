@@ -20,8 +20,10 @@ CREATE TABLE participant (
 );
 
 CREATE TABLE result (
+	result_id serial,
     participant_id int NOT NULL, --foreign key
     country_id int NOT NULL,     --foreign key
+	CONSTRAINT PK_result PRIMARY KEY(result_id),
     CONSTRAINT FK_result_participant_id FOREIGN KEY(participant_id) REFERENCES participant(participant_id),
     CONSTRAINT FK_result_country_id FOREIGN KEY(country_id) REFERENCES country(country_id)
 );
@@ -109,7 +111,7 @@ VALUES
     ('Norfolk Island','Oceania'), ('North Korea','Asia'),
     ('North Macedonia','Europe'), ('Northern Mariana Islands','Oceania'),
     ('Norway','Europe'), ('Oman','Asia'), ('Palau','Oceania'),
-    ('Palestine','Asia'), ('Panama','North America'),
+    ('Palestine','Asia'), ('Pakistan','Asia'), ('Panama','North America'),
     ('Papua New Guinea','Oceania'), ('Paraguay','South America'),
     ('Peru','South America'), ('Philippines','Asia'),
     ('Pitcairn Islands','Oceania'), ('Poland','Europe'),
@@ -211,9 +213,6 @@ VALUES ('Cody','Rose',28,'M',true),
        ('John','Coss',null,'M',true);
 
 COMMIT;
-
-
-
 
 
 

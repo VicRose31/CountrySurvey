@@ -1,0 +1,12 @@
+SELECT * FROM result WHERE participant_id = 42;
+
+SELECT * FROM country WHERE country_name ILIKE '%hong%';
+
+UPDATE country SET country_name = 'United States Virgin Islands'
+WHERE country_id = 220;
+
+SELECT p.first_name, p.last_name, r.participant_id, r.country_id
+FROM participant p
+FULL OUTER JOIN result r ON p.participant_id = r.participant_id
+GROUP BY p.participant_id
+ORDER BY p.last_name;
