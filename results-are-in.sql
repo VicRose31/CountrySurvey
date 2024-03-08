@@ -104,7 +104,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (3, (SELECT country_id FROM country WHERE country_name = 'South Korea')),
 (3, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (3, (SELECT country_id FROM country WHERE country_name = 'United States')),
-(3, (SELECT country_id FROM country WHERE country_name = 'Vietnam'));
+(3, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
 
 (4, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (4, (SELECT country_id FROM country WHERE country_name = 'Canada')),
@@ -144,7 +144,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (4, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (4, (SELECT country_id FROM country WHERE country_name = 'United States')),
 (4, (SELECT country_id FROM country WHERE country_name = 'Venezuela')),
-(4, (SELECT country_id FROM country WHERE country_name = 'Vietnam'));
+(4, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
 
 (5, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (5, (SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -181,14 +181,14 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (5, (SELECT country_id FROM country WHERE country_name = 'Trinidad and Tobago')),
 (5, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (5, (SELECT country_id FROM country WHERE country_name = 'United States')),
-(5, (SELECT country_id FROM country WHERE country_name = 'Venezuela'));
+(5, (SELECT country_id FROM country WHERE country_name = 'Venezuela')),
 
 (6, (SELECT country_id FROM country WHERE country_name = 'Cambodia')),
 (6, (SELECT country_id FROM country WHERE country_name = 'Chile')),
 (6, (SELECT country_id FROM country WHERE country_name = 'China')),
 (6, (SELECT country_id FROM country WHERE country_name = 'France')),
 (6, (SELECT country_id FROM country WHERE country_name = 'Japan')),
-(6, (SELECT country_id FROM country WHERE country_name = 'United States'));
+(6, (SELECT country_id FROM country WHERE country_name = 'United States')),
 
 (7, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (7, (SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -231,7 +231,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (7, (SELECT country_id FROM country WHERE country_name = 'Ukraine')),
 (7, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (7, (SELECT country_id FROM country WHERE country_name = 'United States')),
-(7, (SELECT country_id FROM country WHERE country_name = 'United States Virgin Islands'));
+(7, (SELECT country_id FROM country WHERE country_name = 'United States Virgin Islands')),
 
 (8, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (8, (SELECT country_id FROM country WHERE country_name = 'Bolivia')),
@@ -258,7 +258,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (8, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (8, (SELECT country_id FROM country WHERE country_name = 'United States')),
 (8, (SELECT country_id FROM country WHERE country_name = 'United States Virgin Islands')),
-(8, (SELECT country_id FROM country WHERE country_name = 'Uruguay'));
+(8, (SELECT country_id FROM country WHERE country_name = 'Uruguay')),
 
 (9, (SELECT country_id FROM country WHERE country_name = 'Albania')),
 (9, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
@@ -330,7 +330,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (9, (SELECT country_id FROM country WHERE country_name = 'United States Virgin Islands')),
 (9, (SELECT country_id FROM country WHERE country_name = 'Venezuela')),
 (9, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
-(9, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(9, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (10, (SELECT country_id FROM country WHERE country_name = 'Australia')),
 (10, (SELECT country_id FROM country WHERE country_name = 'Brazil')),
@@ -353,7 +353,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (10, (SELECT country_id FROM country WHERE country_name = 'Thailand')),
 (10, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (10, (SELECT country_id FROM country WHERE country_name = 'United States')),
-(10, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(10, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (11, (SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (11, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
@@ -403,7 +403,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 
 (12, (SELECT country_id FROM country WHERE country_name = 'Mexico')),
 (12, (SELECT country_id FROM country WHERE country_name = 'Puerto Rico')),
-(12, (SELECT country_id FROM country WHERE country_name = 'United States'));
+(12, (SELECT country_id FROM country WHERE country_name = 'United States')),
 
 (13, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (13, (SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -466,7 +466,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (13, (SELECT country_id FROM country WHERE country_name = 'Uruguay')),
 (13, (SELECT country_id FROM country WHERE country_name = 'Uzbekistan')),
 (13, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
-(13, (SELECT country_id FROM country WHERE country_name = 'Yemen'));
+(13, (SELECT country_id FROM country WHERE country_name = 'Yemen')),
 
 (14, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (14, (SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -773,7 +773,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (18, (SELECT country_id FROM country WHERE country_name = 'Uruguay')),
 (18, (SELECT country_id FROM country WHERE country_name = 'Uzbekistan')),
 (18, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
-(18, (SELECT country_id FROM country WHERE country_name = 'Yemen'));
+(18, (SELECT country_id FROM country WHERE country_name = 'Yemen')),
 
 (19, (SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (19, (SELECT country_id FROM country WHERE country_name = 'Angola')),
@@ -1009,7 +1009,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (21, (SELECT country_id FROM country WHERE country_name = 'Vatican City')),
 (21, (SELECT country_id FROM country WHERE country_name = 'Venezuela')),
 (21, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
-(21, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(21, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (22, (SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (22, (SELECT country_id FROM country WHERE country_name = 'Albania')),
@@ -1159,7 +1159,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (25, (SELECT country_id FROM country WHERE country_name = 'South Korea')),
 (25, (SELECT country_id FROM country WHERE country_name = 'Turkey')),
 (25, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
-(25, (SELECT country_id FROM country WHERE country_name = 'United States'));
+(25, (SELECT country_id FROM country WHERE country_name = 'United States')),
 
 (26, (SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (26, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
@@ -1338,7 +1338,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (29, (SELECT country_id FROM country WHERE country_name = 'United States')),
 (29, (SELECT country_id FROM country WHERE country_name = 'Uruguay')),
 (29, (SELECT country_id FROM country WHERE country_name = 'Venezuela')),
-(29, (SELECT country_id FROM country WHERE country_name = 'Yemen'));
+(29, (SELECT country_id FROM country WHERE country_name = 'Yemen')),
 
 (30, (SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (30, (SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -1718,7 +1718,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (40, (SELECT country_id FROM country WHERE country_name = 'Uruguay')),
 (40, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
 (40, (SELECT country_id FROM country WHERE country_name = 'Yemen')),
-(40, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(40, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (41, (SELECT country_id FROM country WHERE country_name = 'Belgium')),
 (41, (SELECT country_id FROM country WHERE country_name = 'China')),
@@ -1836,7 +1836,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (42, (SELECT country_id FROM country WHERE country_name = 'Vietnam')),
 (42, (SELECT country_id FROM country WHERE country_name = 'Yemen')),
 (42, (SELECT country_id FROM country WHERE country_name = 'Zambia')),
-(42, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(42, (SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (43, (SELECT country_id FROM country WHERE country_name = 'Australia')),
 (43, (SELECT country_id FROM country WHERE country_name = 'Brazil')),
@@ -1882,7 +1882,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (43, (SELECT country_id FROM country WHERE country_name = 'United Arab Emirates')),
 (43, (SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
 (43, (SELECT country_id FROM country WHERE country_name = 'United States')),
-(43, (SELECT country_id FROM country WHERE country_name = 'Yemen'));
+(43, (SELECT country_id FROM country WHERE country_name = 'Yemen')),
 
 (44,(SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (44,(SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -1990,7 +1990,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (45,(SELECT country_id FROM country WHERE country_name = 'Uruguay')),
 (45,(SELECT country_id FROM country WHERE country_name = 'Venezuela')),
 (45,(SELECT country_id FROM country WHERE country_name = 'Vietnam')),
-(45,(SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(45,(SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (46,(SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (46,(SELECT country_id FROM country WHERE country_name = 'Albania')),
@@ -2180,7 +2180,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (47,(SELECT country_id FROM country WHERE country_name = 'Venezuela')),
 (47,(SELECT country_id FROM country WHERE country_name = 'Vietnam')),
 (47,(SELECT country_id FROM country WHERE country_name = 'Yemen')),
-(47,(SELECT country_id FROM country WHERE country_name = 'Zambia'));
+(47,(SELECT country_id FROM country WHERE country_name = 'Zambia')),
 
 (48,(SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (48,(SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -2296,7 +2296,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (54,(SELECT country_id FROM country WHERE country_name = 'Spain')),
 (54,(SELECT country_id FROM country WHERE country_name = 'Switzerland')),
 (54,(SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
-(54,(SELECT country_id FROM country WHERE country_name = 'United States'));
+(54,(SELECT country_id FROM country WHERE country_name = 'United States')),
 
 (55,(SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (55,(SELECT country_id FROM country WHERE country_name = 'Albania')),
@@ -2475,7 +2475,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (55,(SELECT country_id FROM country WHERE country_name = 'Western Sahara')),
 (55,(SELECT country_id FROM country WHERE country_name = 'Yemen')),
 (55,(SELECT country_id FROM country WHERE country_name = 'Zambia')),
-(55,(SELECT country_id FROM country WHERE country_name = 'Zimbabwe'));
+(55,(SELECT country_id FROM country WHERE country_name = 'Zimbabwe')),
 
 (56,(SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (56,(SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -2521,7 +2521,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (57,(SELECT country_id FROM country WHERE country_name = 'South Korea')),
 (57,(SELECT country_id FROM country WHERE country_name = 'Turkey')),
 (57,(SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
-(57,(SELECT country_id FROM country WHERE country_name = 'United States'));
+(57,(SELECT country_id FROM country WHERE country_name = 'United States')),
 
 (58,(SELECT country_id FROM country WHERE country_name = 'Afghanistan')),
 (58,(SELECT country_id FROM country WHERE country_name = 'Australia')),
@@ -2603,7 +2603,7 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (60,(SELECT country_id FROM country WHERE country_name = 'Saudi Arabia')),
 (60,(SELECT country_id FROM country WHERE country_name = 'Israel')),
 (60,(SELECT country_id FROM country WHERE country_name = 'Australia')),
-(60,(SELECT country_id FROM country WHERE country_name = 'Bulgaria'));
+(60,(SELECT country_id FROM country WHERE country_name = 'Bulgaria')),
 
 (61,(SELECT country_id FROM country WHERE country_name = 'Canada')),
 (61,(SELECT country_id FROM country WHERE country_name = 'United States')),
@@ -2672,6 +2672,8 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (61,(SELECT country_id FROM country WHERE country_name = 'Trinidad and Tobago')),
 (61,(SELECT country_id FROM country WHERE country_name = 'Jamaica')),
 (61,(SELECT country_id FROM country WHERE country_name = 'Austria'));
+
+
 
 
 
