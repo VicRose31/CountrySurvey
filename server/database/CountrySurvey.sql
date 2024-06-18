@@ -1,6 +1,6 @@
 START TRANSACTION;
 
-DROP TABLE IF EXISTS country, participant, result CASCADE;
+DROP TABLE IF EXISTS country, participant, results CASCADE;
 
 CREATE TABLE country (
     country_id serial,
@@ -19,13 +19,13 @@ CREATE TABLE participant (
     CONSTRAINT PK_participant PRIMARY KEY(participant_id)
 );
 
-CREATE TABLE result (
+CREATE TABLE results (
 	result_id serial,
     participant_id int NOT NULL, --foreign key
     country_id int NOT NULL,     --foreign key
-	CONSTRAINT PK_result PRIMARY KEY(result_id),
-    CONSTRAINT FK_result_participant_id FOREIGN KEY(participant_id) REFERENCES participant(participant_id),
-    CONSTRAINT FK_result_country_id FOREIGN KEY(country_id) REFERENCES country(country_id)
+	CONSTRAINT PK_results PRIMARY KEY(result_id),
+    CONSTRAINT FK_results_participant_id FOREIGN KEY(participant_id) REFERENCES participant(participant_id),
+    CONSTRAINT FK_results_country_id FOREIGN KEY(country_id) REFERENCES country(country_id)
 );
 
 INSERT INTO country (country_name, continent)
@@ -210,11 +210,13 @@ VALUES ('Cody','Rose',28,'M',true),
        ('Bran','Shehan',null,'M',true),
        ('Ilmaris','Zayas Pagan',34,'F',true),
        ('Linda','Coss',63,'F',true),
-       ('John','Coss',null,'M',true);
+       ('John','Coss',null,'M',true),
+       ('Ismael', 'Orona', 17, 'M', true),
+       ('Magdaleno', 'Solis', 17, 'M', true);
 
 --THESE HAVE BEEN SUCCESSFULLY INSERTED INTO DB
 
-INSERT INTO result (participant_id, country_id)
+INSERT INTO results (participant_id, country_id)
 VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')),
 (1, (SELECT country_id FROM country WHERE country_name = 'Argentina')),
 (1, (SELECT country_id FROM country WHERE country_name = 'Armenia')),
@@ -2885,7 +2887,31 @@ VALUES (1, (SELECT country_id FROM country WHERE country_name = 'United States')
 (61,(SELECT country_id FROM country WHERE country_name = 'Somalia')),
 (61,(SELECT country_id FROM country WHERE country_name = 'Trinidad and Tobago')),
 (61,(SELECT country_id FROM country WHERE country_name = 'Jamaica')),
-(61,(SELECT country_id FROM country WHERE country_name = 'Austria'));
+(61,(SELECT country_id FROM country WHERE country_name = 'Austria')),
+
+(62,(SELECT country_id FROM country WHERE country_name = 'Puerto Rico')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Philippines')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Jamaica')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Dominican Republic')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Haiti')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Cuba')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Mexico')),
+(62,(SELECT country_id FROM country WHERE country_name = 'United Kingdom')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Australia')),
+(62,(SELECT country_id FROM country WHERE country_name = 'United States')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Russia')),
+(62,(SELECT country_id FROM country WHERE country_name = 'China')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Japan')),
+(62,(SELECT country_id FROM country WHERE country_name = 'France')),
+(62,(SELECT country_id FROM country WHERE country_name = 'Germany')),
+
+(63,(SELECT country_id FROM country WHERE country_name = 'United States')),
+(63,(SELECT country_id FROM country WHERE country_name = 'Mexico')),
+(63,(SELECT country_id FROM country WHERE country_name = 'Puerto Rico')),
+(63,(SELECT country_id FROM country WHERE country_name = 'Colombia')),
+(63,(SELECT country_id FROM country WHERE country_name = 'Cuba')),
+(63,(SELECT country_id FROM country WHERE country_name = 'Argentina')),
+(63,(SELECT country_id FROM country WHERE country_name = 'Brazil'));
 
 
 COMMIT;
