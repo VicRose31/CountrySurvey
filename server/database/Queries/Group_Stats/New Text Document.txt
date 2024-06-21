@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS responses
+FROM results
+GROUP BY country_id
