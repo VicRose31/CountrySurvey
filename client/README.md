@@ -8,7 +8,7 @@ For this application, there will eventually be two possible actors: the anonymou
 
 ### Countries page
 * As an anonymous or authenticated user, I can visit the Countries page to see all the countries listed in this particular set. 
-* Clicking on a country will bring up additional details about the country such as flag, population, and currency.
+* Clicking on a country will bring up additional details about the country such as continent, flag, population, and currency.
 * A user can type a search term into a Search edit box and the page will only display countries whose name contains the search term (ignoring case).
 
 ### Country Details page
