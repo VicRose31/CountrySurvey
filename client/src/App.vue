@@ -7,8 +7,8 @@
       </header>
     
       <nav>
-          <router-link v-bind:to="{ name: 'products' }" class="home">Home</router-link>
-          <router-link v-bind:to="{ name: 'shopping-cart'}" class="cart">Cart</router-link>  
+          <router-link v-bind:to="{ name: 'home' }" class="home">Home</router-link>
+          <router-link v-bind:to="{ name: 'survey'}" class="survey">Take Survey</router-link>  
           <span class="message-window"></span>
           <router-link v-bind:to="{ name: 'logout' }" v-if="$store.state.token" class="logInOut">
             Logout
@@ -21,3 +21,7 @@
       <footer>&copy 2024 All rights reserved.</footer>
     </div>
   </template>
+
+  <style>
+
+</style>
