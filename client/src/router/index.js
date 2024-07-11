@@ -10,6 +10,7 @@ import IndividualResultsView from '../views/IndividualResultsView.vue'
 import HomeView from '../views/HomeView.vue'
 import AllResultsView from '../views/AllResultsView.vue'
 import MyResultsView from '../views/MyResultsView.vue'
+import SurveyView from '../views/SurveyView.vue'
 
 const routes = [
     {
@@ -75,11 +76,19 @@ const routes = [
         meta: {
             requiresAuth: false 
         }
-    }
+    },
     {
-        path: 'allresults',
+        path: '/allresults',
         name: 'all-results',
         component: AllResultsView,
+        meta: {
+            requiresAuth: false 
+        }
+    },
+    {
+        path: '/survey',
+        name: 'survey',
+        component: SurveyView,
         meta: {
             requiresAuth: false 
         }
