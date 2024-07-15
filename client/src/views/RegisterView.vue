@@ -20,6 +20,14 @@
             v-model="user.firstName"
             required
           />
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            placeholder="Last Name"
+            v-model="user.lastName"
+            required
+          />
           <label for="password">Password</label>
           <input
             type="password"
@@ -36,6 +44,13 @@
             v-model="user.confirmPassword"
             required
           />
+          <label for="gender">Gender</label>
+          <select id="gender" name = "gender" v-model="user.gender">
+            <option disabled value="">--Please choose an option--</option>
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+            <option value="null">Prefer not to answer</option>
+          </select>
   
           <div></div>
           <div>
@@ -61,8 +76,10 @@
         user: {
           username: "",
           firstName: "",
+          lastName: "",
           password: "",
           confirmPassword: "",
+          gender: "",
           role: "user",
         },
       };
