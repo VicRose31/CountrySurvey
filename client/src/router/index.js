@@ -71,7 +71,7 @@ const routes = [
     },
     {
         path: '/myresults',
-        name: 'my-rseults',
+        name: 'my-results',
         component: MyResultsView,
         meta: {
             requiresAuth: false 
