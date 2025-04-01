@@ -1,3 +1,5 @@
+--Country Stats: Countries listed by name with number of 
+--participants that remembered each country
 SELECT c.country_name, COUNT(*) AS number_of_guesses
 FROM results r
 INNER JOIN country c

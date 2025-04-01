@@ -1,3 +1,5 @@
+--Group Stats: All male participants listed by name and participant id
+--with number of countries remembered ordered from highest to lowest count
 SELECT r.participant_id, CONCAT (p.first_name,' ',p.last_name) AS participant_name, COUNT (*) AS countries_remembered
 FROM results r 
 JOIN participant p

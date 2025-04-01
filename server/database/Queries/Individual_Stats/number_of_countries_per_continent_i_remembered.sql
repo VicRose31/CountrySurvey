@@ -1,3 +1,5 @@
+--Individual Stats: Number of countries per continent a 
+--participant remembered, ordered by continent 
 SELECT c.continent, COUNT(*) AS countries_per_continent 
 FROM country c 
 JOIN results r
