@@ -14,9 +14,10 @@ VALUES
 --Check that countries were added to results
 SELECT *
 FROM results
-WHERE participant_id = 89;
+WHERE participant_id = 90;
 
 
 --Check participant id
 SELECT *
 FROM participant;
+
